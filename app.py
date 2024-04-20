@@ -37,11 +37,9 @@ def build_actual_response(response):
                          "PUT, GET, POST, DELETE, OPTIONS")
     return response
 
-github_token = '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'
-repos = ["openai/openai-cookbook", "openai/openai-python", "openai/openai-quickstart-python",
-         "milvus-io/pymilvus", "SeleniumHQ/selenium", "golang/go", "google/go-github", "angular/material",
-         "angular/angular-cli", "sebholstein/angular-google-maps", "d3/d3", "facebook/react", "tensorflow/tensorflow",
-         "keras-team/keras", "pallets/flask"]
+github_token = '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'
+repos = ["openai/openai-cookbook", "openai/openai-python", "elastic/elasticsearch",
+         "milvus-io/pymilvus", "SebastianM/angular-google-maps"]
 
 @app.route('/')
 def home():
@@ -128,7 +126,7 @@ def LSTMIssuesCreatedWeek(reponum):
 @app.route('/fetch/lstm/8.1/reponum=<int:reponum>')
 def fetch_lstm_createdweek(reponum):
     # Specify the path to your image file
-    image_path = f'lstm/8.1-{reponum}.png'
+    image_path = f'LSTM/8.1-{reponum}.png'
 
     # Return the image as a response
     return send_file(image_path, mimetype='image/png')
@@ -136,7 +134,7 @@ def fetch_lstm_createdweek(reponum):
 @app.route('/fetch/lstm/8.2/reponum=<int:reponum>')
 def fetch_lstm_two(reponum):
     # Specify the path to your image file
-    image_path = f'lstm/8.2-{reponum}.png'
+    image_path = f'LSTM/8.2-{reponum}.png'
 
     # Return the image as a response
     return send_file(image_path, mimetype='image/png')
@@ -144,7 +142,7 @@ def fetch_lstm_two(reponum):
 @app.route('/fetch/lstm/8.3/reponum=<int:reponum>')
 def fetch_lstm_three(reponum):
     # Specify the path to your image file
-    image_path = f'lstm/8.3-{reponum}.png'
+    image_path = f'LSTM/8.3-{reponum}.png'
 
     # Return the image as a response
     return send_file(image_path, mimetype='image/png')
@@ -152,49 +150,49 @@ def fetch_lstm_three(reponum):
 @app.route('/fetch/lstm/8.4/reponum=<int:reponum>')
 def fetch_lstm_4(reponum):
     # Specify the path to your image file
-    image_path = f'lstm/8.4-{reponum}.png'
+    image_path = f'LSTM/8.4-{reponum}.png'
 
     # Return the image as a response
     return send_file(image_path, mimetype='image/png')
 @app.route('/fetch/lstm/8.5/reponum=<int:reponum>')
 def fetch_lstm_5(reponum):
     # Specify the path to your image file
-    image_path = f'lstm/8.5-{reponum}.png'
+    image_path = f'LSTM/8.5-{reponum}.png'
 
     # Return the image as a response
     return send_file(image_path, mimetype='image/png')
 @app.route('/fetch/lstm/8.6/reponum=<int:reponum>')
 def fetch_lstm_6(reponum):
     # Specify the path to your image file
-    image_path = f'lstm/8.6-{reponum}.png'
+    image_path = f'LSTM/8.6-{reponum}.png'
 
     # Return the image as a response
     return send_file(image_path, mimetype='image/png')
 @app.route('/fetch/lstm/8.7/reponum=<int:reponum>')
 def fetch_lstm_7(reponum):
     # Specify the path to your image file
-    image_path = f'lstm/8.7-{reponum}.png'
+    image_path = f'LSTM/8.7-{reponum}.png'
 
     # Return the image as a response
     return send_file(image_path, mimetype='image/png')
 @app.route('/fetch/lstm/8.8/reponum=<int:reponum>')
 def fetch_lstm_8(reponum):
     # Specify the path to your image file
-    image_path = f'lstm/8.8-{reponum}.png'
+    image_path = f'LSTM/8.8-{reponum}.png'
 
     # Return the image as a response
     return send_file(image_path, mimetype='image/png')
 @app.route('/fetch/lstm/8.9/reponum=<int:reponum>')
 def fetch_lstm_9(reponum):
     # Specify the path to your image file
-    image_path = f'lstm/8.9-{reponum}.png'
+    image_path = f'LSTM/8.9-{reponum}.png'
 
     # Return the image as a response
     return send_file(image_path, mimetype='image/png')
 @app.route('/fetch/lstm/8.10/reponum=<int:reponum>')
 def fetch_lstm_10(reponum):
     # Specify the path to your image file
-    image_path = f'lstm/8.10-{reponum}.png'
+    image_path = f'LSTM/8.10-{reponum}.png'
 
     # Return the image as a response
     return send_file(image_path, mimetype='image/png')
